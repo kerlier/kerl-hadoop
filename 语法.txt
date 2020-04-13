@@ -1,0 +1,8 @@
+hadoop 语法：
+
+1.  查看hadoop集群中的文件:
+     hadoop fs -ls /
+2.  创建文件夹
+     hadoop fs -mkdir /tmp
+3. 上传文件到指定的目录中
+    hadoop fs -put /home/a.txt /hdfs/tmp   后面的是hadoop集群上的路径

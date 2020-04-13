@@ -77,3 +77,22 @@ hadoop的分布集群
 
     查看ui: 
           http://192.168.5.128:8088/
+
+
+9. 配置历史服务器
+
+  修改marped-site.xml
+     <property>
+          <name>mapreduce.jobhistory.address</name>
+          <value>hadoop101:10020</value>
+      </property>
+    <property>
+          <name>mapreduce.jobhistory.webapp.address</name>
+          <value>hadoop101:19888</value>
+    </property>
+
+    启动历史服务器：
+        mr-jobhistory-daemon.sh  start historyserver
+    停止历史服务器：
+        mr-jobhistory-daemon.sh  stop historyserver
+

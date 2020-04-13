@@ -1,0 +1,7 @@
+A、在 windows 平台下编译 Hadoop 源码（可以参考资料编译，但不推荐） B、使用已经编译好的 Windows 版本 Hadoop：
+hadoop-2.7.4-with-windows.tar.gz
+C、解压一份到 windows 的任意一个目录下
+D、在 windows 系统中配置 HADOOP_HOME 指向你解压的安装包目录
+E、在 windows 系统的 path 变量中加入 HADOOP_HOME 的 bin 目录
+
+注意: C:/window/system32下面不要带有hadoop.dll文件
