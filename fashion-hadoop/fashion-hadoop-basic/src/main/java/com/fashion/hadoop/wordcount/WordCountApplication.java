@@ -12,9 +12,12 @@ public class WordCountApplication {
 
     public static void main(String[] args) throws  Exception {
         Configuration conf = new Configuration();
-        conf.set("mapreduce.framework.name","local");
+//        conf.set("mapreduce.framework.name","local");
+//        conf.set("dfs.block.size","134217728");
 
         Job job = Job.getInstance(conf);
+
+        job.setJarByClass(WordCountApplication.class);
 
         //设置class
         job.setMapperClass(WordCountMapper.class);
@@ -28,11 +31,13 @@ public class WordCountApplication {
         job.setOutputKeyClass(Text.class);
         job.setMapOutputValueClass(IntWritable.class);
 
+        job.setNumReduceTasks(2);
+
         //设置输入path
-        FileInputFormat.setInputPaths(job,"E:\\wordcount\\input");
+        FileInputFormat.setInputPaths(job,new Path(args[0]));
 
         //设置输出path
-        FileOutputFormat.setOutputPath(job,new Path("E:\\wordcount\\output"));
+        FileOutputFormat.setOutputPath(job,new Path(args[1]));
 
         boolean b = job.waitForCompletion(true);
 
