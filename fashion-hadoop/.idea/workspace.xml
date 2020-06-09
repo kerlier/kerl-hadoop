@@ -2,24 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3865fc60-00ae-4508-94de-b521966b94d8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/data/WriteDataHelper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/data/WriteDataHelper2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/MaxOrderApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/MyGroupComparator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/OrderBean.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/OrderMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/OrderPartitioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/OrderReducer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/a.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/telephone/PhoneFlow.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/telephone/TelephoneApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/telephone/TelephoneMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/telephone/TelephonePartitioner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/telephone/TelephoneReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/join/InfoBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/join/JoinApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/join/JoinMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/join/JoinReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/multiout/MultiReducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/multiout/TelephoneApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/multiout/TelephoneMapper.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fashion-hadoop-basic/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fashion-hadoop-basic/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/wordcount/WordCountApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/wordcount/WordCountApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/fashion-hadoop.iml" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -36,51 +26,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/MaxOrderApplication.java">
+        <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/multiout/MultiReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="25" selection-start-line="25" selection-end-line="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4-sources.jar!/org/apache/hadoop/io/WritableComparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="156" selection-start-line="156" selection-end-line="156" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/MyGroupComparator.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="273">
-              <caret line="13" column="28" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="28" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#290#291#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/a.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/OrderMapper.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="18" column="28" lean-forward="true" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
+            <state relative-caret-position="372">
+              <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -89,26 +38,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/OrderPartitioner.java">
+        <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/join/JoinMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="9" column="68" selection-start-line="9" selection-start-column="68" selection-end-line="9" selection-end-column="68" />
+            <state relative-caret-position="165">
+              <caret line="28" selection-start-line="28" selection-end-line="28" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/OrderBean.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1317#1318#0" expanded="true" />
-                <element signature="e#1390#1391#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -117,29 +52,113 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4-sources.jar!/org/apache/hadoop/mapreduce/Mapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="216">
+            <state relative-caret-position="329">
               <caret line="145" selection-start-line="145" selection-end-line="145" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4-sources.jar!/org/apache/hadoop/mapreduce/lib/map/WrappedMapper.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/join/JoinReducer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="80" selection-start-line="80" selection-end-line="80" />
+            <state relative-caret-position="478">
+              <caret line="38" column="29" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/OrderReducer.java">
+        <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/join/JoinApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="231">
-              <caret line="11" column="44" selection-start-line="11" selection-start-column="44" selection-end-line="11" selection-end-column="44" />
+            <state relative-caret-position="87">
+              <caret line="26" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0-sources.jar!/org/apache/commons/beanutils/BeanUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="271">
+              <caret line="110" column="23" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/join/InfoBean.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="659">
+              <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#368#369#0" expanded="true" />
+                <element signature="e#398#399#0" expanded="true" />
+                <element signature="e#444#445#0" expanded="true" />
+                <element signature="e#482#483#0" expanded="true" />
+                <element signature="e#511#512#0" expanded="true" />
+                <element signature="e#538#539#0" expanded="true" />
+                <element signature="e#576#577#0" expanded="true" />
+                <element signature="e#608#609#0" expanded="true" />
+                <element signature="e#638#639#0" expanded="true" />
+                <element signature="e#664#665#0" expanded="true" />
+                <element signature="e#702#703#0" expanded="true" />
+                <element signature="e#732#733#0" expanded="true" />
+                <element signature="e#764#765#0" expanded="true" />
+                <element signature="e#792#793#0" expanded="true" />
+                <element signature="e#834#835#0" expanded="true" />
+                <element signature="e#868#869#0" expanded="true" />
+                <element signature="e#905#906#0" expanded="true" />
+                <element signature="e#938#939#0" expanded="true" />
+                <element signature="e#990#991#0" expanded="true" />
+                <element signature="e#1034#1035#0" expanded="true" />
+                <element signature="e#1067#1068#0" expanded="true" />
+                <element signature="e#1095#1096#0" expanded="true" />
+                <element signature="e#1138#1139#0" expanded="true" />
+                <element signature="e#1172#1173#0" expanded="true" />
+                <element signature="e#1203#1204#0" expanded="true" />
+                <element signature="e#1230#1231#0" expanded="true" />
+                <element signature="e#1270#1271#0" expanded="true" />
+                <element signature="e#1302#1303#0" expanded="true" />
+                <element signature="e#1348#1349#0" expanded="true" />
+                <element signature="e#1439#1440#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/telephone/PhoneFlow.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1134">
+              <caret line="67" column="69" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4-sources.jar!/org/apache/hadoop/mapreduce/lib/output/MultipleOutputs.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="467">
+              <caret line="407" column="21" lean-forward="true" selection-start-line="407" selection-start-column="21" selection-end-line="407" selection-end-column="62" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/multiout/TelephoneApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="777">
+              <caret line="48" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -161,7 +180,6 @@
       <list>
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/basic/HadoopApplication.java" />
-        <option value="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/wordcount/WordCountReducer.java" />
         <option value="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/wordcount/WordCountMapper.java" />
         <option value="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/data/WriteDataHelper.java" />
         <option value="$PROJECT_DIR$/fashion-hadoop-basic/pom.xml" />
@@ -179,6 +197,14 @@
         <option value="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/OrderMapper.java" />
         <option value="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/MaxOrderApplication.java" />
         <option value="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/MyGroupComparator.java" />
+        <option value="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/wordcount/WordCountReducer.java" />
+        <option value="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/multiout/TelephoneMapper.java" />
+        <option value="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/multiout/TelephoneApplication.java" />
+        <option value="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/multiout/MultiReducer.java" />
+        <option value="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/join/JoinMapper.java" />
+        <option value="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/join/InfoBean.java" />
+        <option value="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/join/JoinApplication.java" />
+        <option value="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/join/JoinReducer.java" />
       </list>
     </option>
   </component>
@@ -190,10 +216,10 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="913" />
-    <option name="y" value="186" />
+    <option name="x" value="647" />
+    <option name="y" value="171" />
     <option name="width" value="1243" />
-    <option name="height" value="698" />
+    <option name="height" value="695" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -279,6 +305,30 @@
               <item name="com" type="462c0819:PsiDirectoryNode" />
               <item name="fashion" type="462c0819:PsiDirectoryNode" />
               <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="join" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fashion-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fashion-hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="fashion-hadoop-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fashion" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="multiout" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="fashion-hadoop" type="b2602c69:ProjectViewProjectNode" />
+              <item name="fashion-hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="fashion-hadoop-basic" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="fashion" type="462c0819:PsiDirectoryNode" />
+              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
               <item name="order" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -322,7 +372,7 @@
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/multiout" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -332,6 +382,7 @@
       <recent name="com.fashion.hadoop.order" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\git\kerl-hadoop\fashion-hadoop\fashion-hadoop-basic\src\main\java\com\fashion\hadoop\multiout" />
       <recent name="E:\git\hadoop\fashion-hadoop\src\main\resources" />
       <recent name="E:\git\hadoop\fashion-hadoop\fashion-hadoop-basic\src\main\resources" />
     </key>
@@ -348,13 +399,14 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MaxOrderApplication">
-    <configuration name="HadoopApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fashion.hadoop.basic.HadoopApplication" />
+  <component name="RunManager" selected="Application.JoinApplication">
+    <configuration name="JoinApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fashion.hadoop.join.JoinApplication" />
       <module name="fashion-hadoop-basic" />
+      <option name="PROGRAM_PARAMETERS" value="F:\big-data\hadoop\order F:\big-data\hadoop\order-out" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.fashion.hadoop.basic.*" />
+          <option name="PATTERN" value="com.fashion.hadoop.join.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -365,9 +417,24 @@
     <configuration name="MaxOrderApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fashion.hadoop.order.MaxOrderApplication" />
       <module name="fashion-hadoop-basic" />
+      <option name="PROGRAM_PARAMETERS" value="F:\big-data\hadoop\telephone F:\big-data\hadoop\telephone-out" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.fashion.hadoop.order.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TelephoneApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.fashion.hadoop.multiout.TelephoneApplication" />
+      <module name="fashion-hadoop-basic" />
+      <option name="PROGRAM_PARAMETERS" value="F:\big-data\hadoop\telephone F:\big-data\hadoop\telephone-out" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.fashion.hadoop.multiout.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -388,19 +455,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="WriteDataHelper" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.fashion.hadoop.data.WriteDataHelper" />
-      <module name="fashion-hadoop-basic" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.fashion.hadoop.data.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="WriteDataHelper2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.fashion.hadoop.data.WriteDataHelper2" />
       <module name="fashion-hadoop-basic" />
@@ -414,13 +468,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Application.MaxOrderApplication" />
+      <item itemvalue="Application.WordCountApplication" />
+      <item itemvalue="Application.WriteDataHelper2" />
+      <item itemvalue="Application.TelephoneApplication" />
+      <item itemvalue="Application.JoinApplication" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JoinApplication" />
+        <item itemvalue="Application.TelephoneApplication" />
         <item itemvalue="Application.MaxOrderApplication" />
         <item itemvalue="Application.WriteDataHelper2" />
         <item itemvalue="Application.WordCountApplication" />
-        <item itemvalue="Application.WriteDataHelper" />
-        <item itemvalue="Application.HadoopApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -446,15 +507,15 @@
       <window_info id="Capture Tool" order="2" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info id="Image Layers" order="4" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.23507462" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" visible="true" weight="0.2457356" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.2241567" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
       <window_info anchor="bottom" id="Messages" order="2" weight="0.3297062" />
       <window_info anchor="bottom" id="Version Control" order="3" weight="0.3297062" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.11207835" />
-      <window_info anchor="bottom" id="Debug" order="6" weight="0.56583244" />
+      <window_info anchor="bottom" id="Run" order="5" visible="true" weight="0.28073993" />
+      <window_info anchor="bottom" id="Debug" order="6" weight="0.31229597" />
       <window_info anchor="bottom" id="Find" order="7" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="9" />
@@ -477,6 +538,18 @@
           <line>11</line>
           <properties />
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/join/JoinMapper.java</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/join/JoinReducer.java</url>
+          <line>23</line>
+          <properties />
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
@@ -577,64 +650,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/wordcount/WordCountReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="24" selection-start-line="24" selection-start-column="24" selection-end-line="24" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4-sources.jar!/org/apache/hadoop/mapreduce/Partitioner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="227">
           <caret line="41" column="22" selection-start-line="41" selection-start-column="22" selection-end-line="41" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/telephone/PhoneFlow.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="469">
-          <caret line="67" column="69" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="69" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#379#380#0" expanded="true" />
-            <element signature="e#409#410#0" expanded="true" />
-            <element signature="e#456#457#0" expanded="true" />
-            <element signature="e#494#495#0" expanded="true" />
-            <element signature="e#529#530#0" expanded="true" />
-            <element signature="e#559#560#0" expanded="true" />
-            <element signature="e#606#607#0" expanded="true" />
-            <element signature="e#644#645#0" expanded="true" />
-            <element signature="e#795#796#0" expanded="true" />
-            <element signature="e#825#826#0" expanded="true" />
-            <element signature="e#872#873#0" expanded="true" />
-            <element signature="e#910#911#0" expanded="true" />
-            <element signature="e#1351#1352#0" expanded="true" />
-            <element signature="e#1426#1427#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/telephone/TelephoneReducer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/telephone/TelephoneApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -652,16 +671,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="189">
           <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/wordcount/WordCountApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="14" column="35" selection-start-line="14" selection-end-line="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -699,36 +708,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4-sources.jar!/org/apache/hadoop/mapreduce/Mapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="145" selection-start-line="145" selection-end-line="145" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-common/2.7.4/hadoop-common-2.7.4-sources.jar!/org/apache/hadoop/io/WritableComparator.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="194">
           <caret line="156" selection-start-line="156" selection-end-line="156" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/MaxOrderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/OrderBean.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1317#1318#0" expanded="true" />
-            <element signature="e#1390#1391#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -752,14 +735,219 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/MaxOrderApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/OrderBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="173">
+          <caret line="37" column="13" lean-forward="true" selection-start-line="37" selection-start-column="13" selection-end-line="37" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1317#1318#0" expanded="true" />
+            <element signature="e#1390#1391#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/order/MyGroupComparator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="28" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="28" />
+        <state relative-caret-position="294">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="14" selection-end-line="14" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#290#291#0" expanded="true" />
             <element signature="e#333#334#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/wordcount/WordCountReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="8" column="83" selection-start-line="8" selection-start-column="83" selection-end-line="8" selection-end-column="83" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/telephone/TelephoneReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="7" column="29" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/wordcount/WordCountApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="42" lean-forward="true" selection-start-line="14" selection-end-line="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/telephone/TelephoneApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="37" column="31" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/multiout/TelephoneMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="412">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="12" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4-sources.jar!/org/apache/hadoop/mapred/ReduceTask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="130">
+          <caret line="628" selection-start-line="628" selection-end-line="628" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4-sources.jar!/org/apache/hadoop/mapreduce/Reducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="178" selection-start-line="178" selection-end-line="178" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-common/2.7.4/hadoop-mapreduce-client-common-2.7.4-sources.jar!/org/apache/hadoop/mapred/LocalJobRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="332" selection-start-line="332" selection-end-line="332" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4-sources.jar!/org/apache/hadoop/mapreduce/lib/output/MultipleOutputs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="467">
+          <caret line="407" column="21" lean-forward="true" selection-start-line="407" selection-start-column="21" selection-end-line="407" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/multiout/MultiReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="23" column="66" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/telephone/PhoneFlow.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="67" column="69" selection-start-line="67" selection-start-column="69" selection-end-line="67" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-beanutils/commons-beanutils/1.7.0/commons-beanutils-1.7.0-sources.jar!/org/apache/commons/beanutils/BeanUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="271">
+          <caret line="110" column="23" selection-start-line="110" selection-start-column="23" selection-end-line="110" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/multiout/TelephoneApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="48" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="48" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/join/InfoBean.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="659">
+          <caret line="109" column="28" selection-start-line="109" selection-start-column="28" selection-end-line="109" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#368#369#0" expanded="true" />
+            <element signature="e#398#399#0" expanded="true" />
+            <element signature="e#444#445#0" expanded="true" />
+            <element signature="e#482#483#0" expanded="true" />
+            <element signature="e#511#512#0" expanded="true" />
+            <element signature="e#538#539#0" expanded="true" />
+            <element signature="e#576#577#0" expanded="true" />
+            <element signature="e#608#609#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#664#665#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#732#733#0" expanded="true" />
+            <element signature="e#764#765#0" expanded="true" />
+            <element signature="e#792#793#0" expanded="true" />
+            <element signature="e#834#835#0" expanded="true" />
+            <element signature="e#868#869#0" expanded="true" />
+            <element signature="e#905#906#0" expanded="true" />
+            <element signature="e#938#939#0" expanded="true" />
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1034#1035#0" expanded="true" />
+            <element signature="e#1067#1068#0" expanded="true" />
+            <element signature="e#1095#1096#0" expanded="true" />
+            <element signature="e#1138#1139#0" expanded="true" />
+            <element signature="e#1172#1173#0" expanded="true" />
+            <element signature="e#1203#1204#0" expanded="true" />
+            <element signature="e#1230#1231#0" expanded="true" />
+            <element signature="e#1270#1271#0" expanded="true" />
+            <element signature="e#1302#1303#0" expanded="true" />
+            <element signature="e#1348#1349#0" expanded="true" />
+            <element signature="e#1439#1440#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/hadoop/hadoop-mapreduce-client-core/2.7.4/hadoop-mapreduce-client-core-2.7.4-sources.jar!/org/apache/hadoop/mapreduce/Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="145" selection-start-line="145" selection-end-line="145" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/join/JoinApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="26" lean-forward="true" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/join/JoinMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="28" selection-start-line="28" selection-end-line="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fashion-hadoop-basic/src/main/java/com/fashion/hadoop/join/JoinReducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="21" selection-end-line="38" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
