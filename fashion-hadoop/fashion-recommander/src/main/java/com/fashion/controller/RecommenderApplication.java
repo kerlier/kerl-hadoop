@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @RestController("/getRecommend")
-public class FrontApplication {
+public class RecommenderApplication {
 
     public List<Object> recommend(){
 
